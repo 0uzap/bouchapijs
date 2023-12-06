@@ -1,4 +1,4 @@
-/*const API_URL = 'http://s3-4677.nuage-peda.fr/bouchapi2/api/produits';
+const API_URL = 'http://s3-4677.nuage-peda.fr/bouchapi2/api/produits';
 
 async function getProduit(page = 1) {
     try {
@@ -16,4 +16,3 @@ async function getProduit(page = 1) {
 }
 
 export { getProduit }
-*/

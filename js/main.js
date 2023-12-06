@@ -1,5 +1,5 @@
 import { getType } from "./api/api_types.js";
-//import { getProduit } from "./api/api_types.js";
+//import { getProduit } from "./api/api_produits.js";
 
 async function afficherTypes() {
     try{
@@ -16,7 +16,7 @@ async function afficherTypes() {
 
             var div2 = document.createElement("div");
             div2.innerHTML = type.description;
-            // div2.inerHTML = attente()
+            // div2.innerHTML = attente()
 
             //var btn = document.createElement('button');
             //btn.classList.add("detail");
